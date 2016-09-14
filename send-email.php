@@ -3,7 +3,7 @@
  $name=$_POST["name"];
  $from=$_POST["email"];
  $msg=$_POST["message"];
- $receiver="andrey@izee.ro";
+ $receiver="apexmpatel.co";
  $subject="Contact MyWALL";
 
 $message = "
@@ -14,7 +14,7 @@ $message = "
 <body>
 <table width='50%' border='0' align='center' cellpadding='0' cellspacing='0'>
   <tr>
-    <td colspan='2' align='center' valign='top'><img src='http://www.izee.ro/img/izee.png'></td>
+    <td colspan='2' align='center' valign='top'><img src='http://www.apexmpatel.co/'></td>
   </tr>
   <tr>
     <td width='50%' align='right'>&nbsp;</td>
@@ -47,11 +47,11 @@ $headers .= 'From: <'.$from.'>' . "\r\n";
 
    if(mail($receiver,$subject,$message,$headers))  
    {
-      echo "<p class='pad'>The message has been sent!</p>";
+      echo "<p class='pad'>Thank You! Your message has been sent.I will be in touch!</p>";
    }
    else
    {
-      echo "<p class='pad'>The message could not been sent!</p>";
+      echo "<p class='pad'>Sorry there was an error sending your message. Please try again later!</p>";
    }
 
 
