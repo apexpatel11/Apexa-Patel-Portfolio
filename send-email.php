@@ -3,7 +3,7 @@
  $name=$_POST["name"];
  $from=$_POST["email"];
  $msg=$_POST["message"];
- $receiver="apexmpatel.co";
+ $receiver="apex0630@outlook.com";
  $subject="Contact MyWALL";
 
 $message = "
